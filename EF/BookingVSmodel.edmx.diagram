@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="192fb37314814010b4810c6b83bb6b4d" Name="Diagram1">
+        <EntityTypeShape EntityType="BookingValaisPintoDaSilvaModel.Hotel" Width="1.5" PointX="0.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookingValaisPintoDaSilvaModel.Picture" Width="1.5" PointX="7" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookingValaisPintoDaSilvaModel.Reservation" Width="1.5" PointX="7" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookingValaisPintoDaSilvaModel.ReservationRoom" Width="1.5" PointX="4.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookingValaisPintoDaSilvaModel.Room" Width="1.5" PointX="2.625" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookingValaisPintoDaSilvaModel.sysdiagrams" Width="1.5" PointX="7" PointY="6" IsExpanded="true" />
+        <AssociationConnector Association="BookingValaisPintoDaSilvaModel.FK_Room_Hotel" ManuallyRouted="false" />
+        <AssociationConnector Association="BookingValaisPintoDaSilvaModel.FK_Picture_Room" ManuallyRouted="false" />
+        <AssociationConnector Association="BookingValaisPintoDaSilvaModel.FK_ReservationRoom_Reservation" ManuallyRouted="false" />
+        <AssociationConnector Association="BookingValaisPintoDaSilvaModel.FK_ReservationRoom_Room" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

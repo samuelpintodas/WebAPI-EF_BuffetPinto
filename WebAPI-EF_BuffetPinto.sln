@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI-EF_BuffetPinto", "WebAPI-EF_BuffetPinto\WebAPI-EF_BuffetPinto.csproj", "{756094CA-76F3-47A2-B91B-2E90A3203387}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF", "EF\EF.csproj", "{955D21D7-97AE-402B-B01F-F2708412328D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO", "DTO\DTO.csproj", "{158774DB-3152-409C-BD27-9A9DA127F653}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{756094CA-76F3-47A2-B91B-2E90A3203387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{756094CA-76F3-47A2-B91B-2E90A3203387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{756094CA-76F3-47A2-B91B-2E90A3203387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{756094CA-76F3-47A2-B91B-2E90A3203387}.Release|Any CPU.Build.0 = Release|Any CPU
+		{955D21D7-97AE-402B-B01F-F2708412328D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{955D21D7-97AE-402B-B01F-F2708412328D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{955D21D7-97AE-402B-B01F-F2708412328D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{955D21D7-97AE-402B-B01F-F2708412328D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{158774DB-3152-409C-BD27-9A9DA127F653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{158774DB-3152-409C-BD27-9A9DA127F653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{158774DB-3152-409C-BD27-9A9DA127F653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{158774DB-3152-409C-BD27-9A9DA127F653}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2C05F32-2476-48AA-9790-8FE43E3A5095}
+	EndGlobalSection
+EndGlobal
